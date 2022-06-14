@@ -1,0 +1,18 @@
+/* Specifically for the login page */
+
+.hide {
+  visibility: hidden;
+  display: none;
+}
+
+.show {
+  visibility: visible;
+  display: block;
+}
+
+.profile img {
+  width: 10%;
+  height: 100%;
+  overflow: hidden;
+  float: right;
+}
