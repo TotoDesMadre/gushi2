@@ -17,6 +17,7 @@ select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  text-align: center;
 }
 
 /* Style the submit button */
@@ -29,6 +30,7 @@ input[type="submit"] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  text-align: center;
 }
 
 /* Add a background color to the submit button on mouse-over */
