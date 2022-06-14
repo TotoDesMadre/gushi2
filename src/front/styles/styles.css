@@ -97,3 +97,6 @@ secondSection {
   margin-left: 30px;
 }
 /* __________________________________________________ */
+nav {
+  position: fixed;
+}
