@@ -19,6 +19,7 @@ export const Login = () => {
       <input type="text" placeholder="Password"></input>
 
       <button
+        className="login-btn"
         onClick={() => {
           setAuth(true);
           if (location.state?.from) {

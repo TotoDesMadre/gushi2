@@ -1,5 +1,8 @@
 /* Specifically for the login page */
-
+body {
+  font-size: 1rem;
+  font-weight: bold;
+}
 .hide {
   visibility: hidden;
   display: none;
@@ -71,10 +74,6 @@
   opacity: 1;
 }
 
-.login {
-  margin-top: 100px;
-}
-
 .section-bg {
   margin-top: 400px;
   background: linear-gradient(180deg, #e3ebf2 0%, #fff 100%);
@@ -91,12 +90,43 @@ secondSection {
 
 /* __________________________________________________ */
 .login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   width: 500px;
   height: 500px;
-  margin-top: 150px;
-  margin-left: 30px;
+  margin: auto;
+  margin-top: 25px;
+  padding: 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  bottom: 1px solid blue;
+  background-color: blue;
+}
+.login-btn {
+  padding: 0.8rem;
+  width: 80%;
+  margin-top: 5px;
+  border-radius: 10px;
+  color: white;
+  background-color: green;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  transition: width ease-in 0.2s, padding ease-in 0.2s,
+    letter-spacing ease-in 0.2s, font-size ease-in 0.2s;
+}
+.login-btn:hover {
+  width: 95%;
+  padding: 1rem;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  cursor: pointer;
 }
 /* __________________________________________________ */
 nav {
-  position: fixed;
+  border-bottom: 2px solid #000;
 }
